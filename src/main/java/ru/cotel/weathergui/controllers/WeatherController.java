@@ -1,18 +1,14 @@
-package ru.cotel.weathergui;
+package ru.cotel.weathergui.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
-
-import java.util.ResourceBundle;
+import ru.cotel.weathergui.weatherData.WeatherData;
 
 public class WeatherController {
     String city;
-    @FXML
-    private ResourceBundle resources;
 
     @FXML
     private Button buttonSearch;
@@ -28,9 +24,6 @@ public class WeatherController {
 
     @FXML
     private TextField fieldEnterCityName;
-
-    @FXML
-    private ImageView imgWeatherDesc;
 
     @FXML
     private TextArea maximumText;

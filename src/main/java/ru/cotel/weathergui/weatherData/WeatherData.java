@@ -1,4 +1,4 @@
-package ru.cotel.weathergui;
+package ru.cotel.weathergui.weatherData;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -11,7 +11,6 @@ public class WeatherData {
     private static JSONObject jsObject;
     private static JSONObject main;
     private static JSONObject weather;
-    private static String cityName;
     private static double temperature;
     private static double fellsLike;
     private static double maximum;
@@ -47,7 +46,6 @@ public class WeatherData {
     private static void parsAndDisplayWeather(String weatherData) throws Exception {
         try {
             jsObject = new JSONObject(weatherData);
-            cityName = jsObject.getString("name");
             main = jsObject.getJSONObject("main");
             temperature = main.getDouble("temp");
             fellsLike = main.getDouble("feels_like");

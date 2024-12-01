@@ -14,4 +14,8 @@ module ru.cotel.weathergui {
 
     opens ru.cotel.weathergui to javafx.fxml;
     exports ru.cotel.weathergui;
+    exports ru.cotel.weathergui.controllers;
+    opens ru.cotel.weathergui.controllers to javafx.fxml;
+    exports ru.cotel.weathergui.weatherData;
+    opens ru.cotel.weathergui.weatherData to javafx.fxml;
 }
