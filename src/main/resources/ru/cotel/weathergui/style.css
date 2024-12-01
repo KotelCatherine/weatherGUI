@@ -1,0 +1,51 @@
+#pane {
+    -fx-background-image: url("back.jpeg");
+    -fx-background-size: 100% 100%;
+}
+
+#buttonSearch{
+    -fx-background-color: transparent;
+    -fx-border-color: #fbfbfb;
+    -fx-border-radius: 20px;
+}
+
+#temperatureText, #temperatureText .viewport, #temperatureText .content, #temperatureText .text {
+    -fx-background-color: transparent;
+    -fx-border-color: #fbfbfb;
+    -fx-border-radius: 20px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #434141;
+}
+
+#feelsLikeText, #feelsLikeText .viewport, #feelsLikeText .content, #feelsLikeText .text {
+    -fx-background-color: transparent;
+    -fx-border-color: #fbfbfb;
+    -fx-border-radius: 20px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #434141;
+
+
+}
+
+#maximumText, #maximumText .viewport, #maximumText .content, #maximumText .text {
+    -fx-background-color: transparent;
+    -fx-border-color: #fbfbfb;
+    -fx-border-radius: 20px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #434141;
+
+}
+
+#minimumText, #minimumText .viewport, #minimumText .content , #minimumText .text {
+    -fx-background-color: transparent;
+    -fx-border-color: #fbfbfb;
+    -fx-border-radius: 20px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #434141;
+
+}
+
+#descriptionLabel, #descriptionLabel .text{
+    -fx-text-fill: #434141;
+}
+
